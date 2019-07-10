@@ -1,0 +1,118 @@
+html {
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+h1 {
+  font-size: 5rem;
+  line-height:.75em;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height:1em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size:1.6rem;
+  margin: 0  20px 25px 0;
+  text-align: center;
+  line-height: 1em;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1em;
+  text-align: center;
+  margin: 0 20px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+
+li {
+  line-height: 1.5em;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border: 10px solid white;
+}
+
+li {
+  margin-bottom: 20px;
+}
+    
+  
+   #img-caption {
+    display: block;
+    height: auto;
+    margin: 15px auto;
+    color: #EFF2E1;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1rem;
+      margin: 0 auto;
+    }
+  }
+
+
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 3 ;
+    background-color:#e94e1b;
+    
+    width: 100%;
+    border-block-start-width: 1rem;
+    border-color:#34436A;
+    border-style:solid;
+    
+
+
+}
+#title {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #EFF2E1;
+}
+
+#tribute-info { 
+  color: #EFF2E1;
+
+}
+
+ #tribute-link {
+   margin-bottom:50px;
+
+}
+p {
+  margin-bottom:50px;
+
+}
