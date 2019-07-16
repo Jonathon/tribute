@@ -116,3 +116,26 @@ p {
   margin-bottom:50px;
 
 }
+
+/* unvisited link */
+ a#tribute-link   {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a#tribute-link:visited {
+  color: green;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
