@@ -110,6 +110,7 @@ li {
 
  #tribute-link {
    margin-bottom:50px;
+   
 
 }
 p {
@@ -117,25 +118,15 @@ p {
 
 }
 
-/* unvisited link */
- a#tribute-link   {
-  color: red;
+ p a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
   text-decoration: none;
+  display: inline-block;
 }
 
-/* visited link */
-a#tribute-link:visited {
-  color: green;
-  text-decoration: underline;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-  text-decoration: underline;
+ p a:hover, a:active {
+  background-color: red;
 }
